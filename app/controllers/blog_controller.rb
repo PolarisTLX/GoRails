@@ -3,4 +3,8 @@ class BlogController < ApplicationController
     @test = params[:test]
     puts "putsing params[:test] #{@test}"
   end
+
+  def show
+    @id = params[:id]
+  end
 end
